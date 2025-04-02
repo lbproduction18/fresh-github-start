@@ -22,6 +22,7 @@ const Index = () => {
   ];
 
   useEffect(() => {
+    console.log("test");
     if (!carouselApi) return;
     
     const handleSelect = () => {
