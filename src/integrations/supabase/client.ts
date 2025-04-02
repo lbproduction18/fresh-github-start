@@ -1,6 +1,6 @@
 
-// src/integrations/supabase/client.ts
-import { createClient } from '@supabase/supabase-js';
+// src/integrations/supabase/client.tssdf
+import { createClient  } from '@supabase/supabase-js';
 
 // Supabase project details
 const SUPABASE_URL = 'https://wiqfhqmemoektnuvxirq.supabase.co';
@@ -8,6 +8,7 @@ const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBh
 
 // Create and export the Supabase client with updated auth options
 export const supabase = createClient(
+
   SUPABASE_URL,
   SUPABASE_ANON_KEY,
   {
