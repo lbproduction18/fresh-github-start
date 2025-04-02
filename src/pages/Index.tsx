@@ -7,7 +7,7 @@ const Index = () => {
     <div className="min-h-screen flex items-center justify-center bg-background p-4">
       <Card className="w-full max-w-lg shadow-lg">
         <CardHeader>
-          <CardTitle className="text-3xl font-bold">Welcome to My Project</CardTitle>
+          <CardTitle className="text-3xl font-bold">Welcome to My test test</CardTitle>
           <CardDescription>This is the master branch of your application</CardDescription>
         </CardHeader>
         <CardContent>
